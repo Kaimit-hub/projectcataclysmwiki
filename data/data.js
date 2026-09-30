@@ -212,7 +212,7 @@ const CONTAINERS = [
         rarity: 'common', rarityName: 'Распространённое', rarityNameEn: 'Common',
         type: 'bulky', typeName: 'Громоздкий', typeNameEn: 'Bulky',
         image: 'container_x2.png', imageFolder: 'Containers',
-        slots: 2, stats: { maxStamina: -15.00, moveSpeed: -1.00 }, shielding: { radiation: -2.00 }
+        slots: 2, stats: {}, shielding: {}
     },
     {
         id: 'container_x1',
@@ -220,7 +220,7 @@ const CONTAINERS = [
         rarity: 'common', rarityName: 'Распространённое', rarityNameEn: 'Common',
         type: 'standard', typeName: 'Стандартный', typeNameEn: 'Standard',
         image: 'container_x1.png', imageFolder: 'Containers',
-        slots: 1, stats: { maxStamina: -8.00 }, shielding: { radiation: -1.00 }
+        slots: 1, stats: {}, shielding: {}
     },
     {
         id: 'pka_2',
@@ -228,23 +228,23 @@ const CONTAINERS = [
         rarity: 'uncommon', rarityName: 'Необычное', rarityNameEn: 'Uncommon',
         type: 'compact', typeName: 'Компактный', typeNameEn: 'Compact',
         image: 'pka_2.png', imageFolder: 'Containers',
-        slots: 2, stats: {}, shielding: { radiation: -3.00 }
+        slots: 2, stats: {}, shielding: { radiation: -2.00 }
     },
     {
         id: 'pka_3',
         name: 'ПКА-3', nameEn: 'PKA-3',
         rarity: 'collection', rarityName: 'Коллекционное', rarityNameEn: 'Collection',
-        type: 'standard', typeName: 'Стандартный', typeNameEn: 'Standard',
+        type: 'compact', typeName: 'Компактный', typeNameEn: 'Compact',
         image: 'pka_3.png', imageFolder: 'Containers',
-        slots: 3, stats: { maxStamina: -5.00 }, shielding: { radiation: -2.00 }
+        slots: 3, stats: {}, shielding: { radiation: -2.00 }
     },
     {
         id: 'pka_4',
         name: 'ПКА-4', nameEn: 'PKA-4',
         rarity: 'collection', rarityName: 'Коллекционное', rarityNameEn: 'Collection',
-        type: 'standard', typeName: 'Стандартный', typeNameEn: 'Standard',
+        type: 'compact', typeName: 'Компактный', typeNameEn: 'Compact',
         image: 'pka_4.png', imageFolder: 'Containers',
-        slots: 4, stats: { maxStamina: -5.00 }, shielding: { radiation: -2.50 }
+        slots: 4, stats: {}, shielding: { radiation: -1.50 }
     },
     {
         id: 'container_radiy',
@@ -252,7 +252,7 @@ const CONTAINERS = [
         rarity: 'rare', rarityName: 'Раритетное', rarityNameEn: 'Rare',
         type: 'standard', typeName: 'Стандартный', typeNameEn: 'Standard',
         image: 'container_radiy.png', imageFolder: 'Containers',
-        slots: 5, stats: { maxStamina: -10.00 }, shielding: { radiation: -1.00 }
+        slots: 5, stats: {}, shielding: {}
     },
     {
         id: 'pka_4m',
@@ -260,7 +260,7 @@ const CONTAINERS = [
         rarity: 'unique', rarityName: 'Уникальное', rarityNameEn: 'Unique',
         type: 'compact', typeName: 'Компактный', typeNameEn: 'Compact',
         image: 'pka_4m.png', imageFolder: 'Containers',
-        slots: 4, stats: {}, shielding: { radiation: -6.00 }
+        slots: 4, stats: { moveSpeed: 2.00 }, shielding: { radiation: -4.00 }
     },
     {
         id: 'container_bariy',
@@ -268,7 +268,7 @@ const CONTAINERS = [
         rarity: 'unique', rarityName: 'Уникальное', rarityNameEn: 'Unique',
         type: 'spacious', typeName: 'Вместительный', typeNameEn: 'Spacious',
         image: 'container_bariy.png', imageFolder: 'Containers',
-        slots: 6, stats: { maxStamina: -20.00 }, shielding: {}
+        slots: 6, stats: {}, shielding: {}
     }
 ];
 
