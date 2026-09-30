@@ -671,7 +671,7 @@ const ARMORS = [
         name: 'Сверхтяжелый бронекостюм «Панцирь»', nameEn: 'Super Heavy Body Armor "Shell"',
         rarity: 'unique', rarityName: 'Уникальное', rarityNameEn: 'Unique',
         type: 'Боевые', typeEn: 'Combat',
-        containerTypes: ['standard', 'compact'],
+        containerTypes: ['compact'],
         stats: { radiationProtection: 200, bioProtection: 200, thermalProtection: 100, psiProtection: 100, heatResistance: 42, chemResistance: 42, electroResistance: 42, impactResistance: 258, tearProtection: 356, bulletResistance: 400, maxStamina: -10.00, moveSpeed: -12.00, maxWeight: 60.00 },
         enhancement: ENHANCEMENT_PRESETS.superHeavy
     },
