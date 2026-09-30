@@ -917,7 +917,7 @@ const ARMORS = [
 // Изображения: images/items/Artifacts/<id>.png
 const ARTIFACTS = [
     // GRAVITATIONAL
-    { id: 'blood_stone', name: 'Кровь камня', nameEn: 'Blood Stone', category: 'gravity', tier: 1, image: 'blood_stone.png', imageFolder: 'Artifacts', price: 3200, stats: { bleeding: -0.25, regeneration: 1.00, radiation: 1.00 } },
+    { id: 'blood_stone', name: 'Кровь камня', nameEn: 'Blood Stone', category: 'gravity', tier: 1, image: 'blood_stone.png', imageFolder: 'Artifacts', price: 3200, stats: { regeneration: 0.50 } },
     { id: 'vyvert', name: 'Выверт', nameEn: 'Vyvert', category: 'gravity', tier: 1, image: 'vyvert.png', imageFolder: 'Artifacts', price: 5000, stats: { tearProtection: 20, maxWeight: 6.00, radiation: 1.00 } },
     { id: 'medusa', name: 'Медуза', nameEn: 'Medusa', category: 'gravity', tier: 1, image: 'medusa.png', imageFolder: 'Artifacts', price: 12000, stats: { radiationProtection: 20, maxWeight: 4.00, radiation: -2.00, bulletResistance: -3 } },
     { id: 'stone_flower', name: 'Каменный цветок', nameEn: 'Stone Flower', category: 'gravity', tier: 1, image: 'stone_flower.png', imageFolder: 'Artifacts', price: 12500, stats: { psiProtection: 20, maxWeight: 6.00, bulletResistance: 8, radiation: 2.00 } },
