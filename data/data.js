@@ -672,7 +672,7 @@ const ARMORS = [
         rarity: 'unique', rarityName: 'Уникальное', rarityNameEn: 'Unique',
         type: 'Боевые', typeEn: 'Combat',
         containerTypes: ['compact'],
-        stats: { radiationProtection: 200, bioProtection: 200, thermalProtection: 100, psiProtection: 100, heatResistance: 42, chemResistance: 42, electroResistance: 42, impactResistance: 258, tearProtection: 356, bulletResistance: 400, maxStamina: -10.00, moveSpeed: -12.00, maxWeight: 60.00 },
+        stats: { radiationProtection: 200, bioProtection: 200, thermalProtection: 100, psiProtection: 100, heatResistance: 42, chemResistance: 42, electroResistance: 42, impactResistance: 258, tearProtection: 356, bulletResistance: 400, moveSpeed: -12.00, maxWeight: 60.00 },
         enhancement: ENHANCEMENT_PRESETS.superHeavy
     },
     {
