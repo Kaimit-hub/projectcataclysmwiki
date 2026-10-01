@@ -654,7 +654,7 @@ const ARMORS = [
         rarity: 'unique', rarityName: 'Уникальное', rarityNameEn: 'Unique',
         type: 'Боевые', typeEn: 'Combat',
         containerTypes: ['all'],
-        stats: { radiationProtection: 200, bioProtection: 200, thermalProtection: 100, psiProtection: 200, heatResistance: 80, chemResistance: 80, electroResistance: 80, impactResistance: 182, tearProtection: 218, bulletResistance: 300, maxStamina: -30.00, maxWeight: 20.00 },
+        stats: { radiationProtection: 200, bioProtection: 200, thermalProtection: 100, psiProtection: 200, heatResistance: 80, chemResistance: 80, electroResistance: 80, impactResistance: 182, tearProtection: 218, bulletResistance: 300, maxStamina: -10.00, maxWeight: 20.00 },
         enhancement: ENHANCEMENT_PRESETS.combat
     },
     {
@@ -681,7 +681,7 @@ const ARMORS = [
         rarity: 'unique', rarityName: 'Уникальное', rarityNameEn: 'Unique',
         type: 'Боевые', typeEn: 'Combat',
         containerTypes: ['standard', 'spacious', 'compact'],
-        stats: { radiationProtection: 200, bioProtection: 200, thermalProtection: 100, psiProtection: 200, heatResistance: 80, chemResistance: 80, electroResistance: 80, impactResistance: 214, tearProtection: 252, bulletResistance: 372, maxStamina: 10.00, moveSpeed: -3.00, maxWeight: 60.00 },
+        stats: { radiationProtection: 200, bioProtection: 200, thermalProtection: 100, psiProtection: 200, heatResistance: 80, chemResistance: 80, electroResistance: 80, impactResistance: 214, tearProtection: 252, bulletResistance: 372, moveSpeed: -3.00, maxWeight: 60.00 },
         enhancement: ENHANCEMENT_PRESETS.exoskeleton
     },
     {
@@ -690,7 +690,7 @@ const ARMORS = [
         rarity: 'unique', rarityName: 'Уникальное', rarityNameEn: 'Unique',
         type: 'Боевые', typeEn: 'Combat',
         containerTypes: ['standard', 'spacious', 'compact'],
-        stats: { radiationProtection: 200, bioProtection: 200, thermalProtection: 100, psiProtection: 200, heatResistance: 100, chemResistance: 100, electroResistance: 100, impactResistance: 242, tearProtection: 312, bulletResistance: 372, maxStamina: 10.00, maxWeight: 70.00 },
+        stats: { radiationProtection: 200, bioProtection: 200, thermalProtection: 100, psiProtection: 200, heatResistance: 100, chemResistance: 100, electroResistance: 100, impactResistance: 242, tearProtection: 312, bulletResistance: 372, maxWeight: 70.00 },
         enhancement: ENHANCEMENT_PRESETS.exoskeleton
     },
     // COMBINED
@@ -908,7 +908,7 @@ const ARMORS = [
         rarity: 'legendary', rarityName: 'Легендарное', rarityNameEn: 'Legendary',
         type: 'Комбинированные', typeEn: 'Combined',
         containerTypes: ['standard', 'spacious', 'compact'],
-        stats: { radiationProtection: 300, bioProtection: 300, thermalProtection: 200, psiProtection: 300, heatResistance: 120, chemResistance: 120, electroResistance: 120, impactResistance: 252, tearProtection: 324, bulletResistance: 382, bleeding: -1.00, maxStamina: 20.00, maxWeight: 80.00 },
+        stats: { radiationProtection: 300, bioProtection: 300, thermalProtection: 200, psiProtection: 300, heatResistance: 120, chemResistance: 120, electroResistance: 120, impactResistance: 252, tearProtection: 324, bulletResistance: 382, maxWeight: 80.00 },
         enhancement: ENHANCEMENT_PRESETS.legendary
     }
 ];
